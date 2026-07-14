@@ -1,6 +1,6 @@
 services:
   - type: web
     name: student-management-system-java
-    env: java
+    runtime: java
     buildCommand: ./mvnw clean package -DskipTests
-    startCommand: java -jar target/*.jargit
+    startCommand: java -jar target/*.jar
